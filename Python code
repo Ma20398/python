@@ -1,0 +1,111 @@
+#1print from 1 to 5 
+for i in range(1,5+1):
+  print i 
+
+#2print if the number is even or odd 
+#num= int(input("enter the number:"))
+#if (num%2==0):
+ # print "even"
+#else:
+ # print "odd"
+
+ #3 print the  numbers between 
+#num1= int(input("enter the first number:"))
+#num2= int(input("enter the second number:"))
+#for i in range(num1,num2+1):
+ # print i 
+
+#4 calculate the sum of all numbers from n1 to n2
+#num1= int(input("enter the first number:"))
+#num2= int(input("enter the second number:"))
+#sum= 0 
+#for i in range(num1,num2+1):
+#  sum = sum + i
+#print sum
+#5 print the list in even number 
+#n1 = int(input("Enter number 1:"))
+#n2 = int(input("Enter number 2:"))
+#for i in range(n1, n2 + 1):
+ # if (i % 2 == 0):
+  #  print i
+
+#6 print the list in odd number 
+#n1 = int(input("Enter number 1:"))
+#n2 = int(input("Enter number 2:"))
+#for i in range(n1, n2 + 1):
+ # if (i % 2 != 0):
+  #  print i
+#7print the sum of odd number 
+#n1 = int(input("Enter number 1:"))
+#n2 = int(input("Enter number 2:"))
+#sumodd=0
+#for i in range(n1, n2 + 1):
+ # if (i % 2 != 0):
+  #  sumodd=sumodd+i
+#print sumodd
+
+#8print the sum of odd number 
+#n1 = int(input("Enter number 1:"))
+#n2 = int(input("Enter number 2:"))
+#sumeven=0
+#for i in range(n1, n2 + 1):
+#  if (i % 2 == 0):
+#    sumeven=sumeven+i
+#print sumeven
+#9sum of odd and even 
+#n1 = int(input("Enter number 1:"))
+#n2 = int(input("Enter number 2:"))
+#sumodd = 0
+#sumEven = 0
+#for i in range(n1, n2 + 1):
+ # if (i % 2 == 0):
+ #   sumEven = sumEven + i
+ # else:
+  #  sumodd = sumodd + i
+#print "Sum of even is:", sumEven 
+#print "Sum of odd is:", sumodd
+# enter the 5 grades then display avarage 
+#g1=float(input("enter first grade "))
+#g2=float(input("enter second grade "))
+#g3=float(input("enter third grade "))
+#g4=float(input("enter fourth grade "))
+#g5=float(input("enter fifth grade "))
+#sum= g1+g2+g3+g4+g5
+#avg=sum/5
+#print "the total grade is ",sum,"the avarage of the grades is ",avg
+#heartbeat=int(input("enter the heartbeat of person perminute"))
+#if(heartbeat<50):
+ # print "low"
+#elif(heartbeat>=50) and (heartbeat<90):
+ #   print "normal"
+#elif(heartbeat>90):
+ #  print "high"
+
+age= int(input("enter your age"))
+heartbeat=int(input("enter your heart beat"))
+if (age>=30  and age<=40  and heartbeat==180):
+  print "normal"
+else:
+  print"check the dector"
+#find the input total 
+#sum=0 
+#for i in range(5):
+ #   num=int(input("enter the number"))
+  #  sum = sum+num 
+#print sum 
+# read five grades and display the total and avarage
+#total=0 
+#for i in range(5):
+#  grades=float(input("enter the grades"))
+#  total=total+grades
+#  avg=total/5
+#print "the total is ",total,"the avarage is ",avg
+
+  
+
+
+
+
+
+
+       
